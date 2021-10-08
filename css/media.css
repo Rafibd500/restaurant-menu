@@ -1,0 +1,129 @@
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+     /* header part start  */
+     .navbar-toggler i {
+        color: #fff;
+        font-size: 36px;
+        margin-right: 20px;
+        margin-top: 11px;
+    }
+
+    .navbar-brand img {
+        margin: 10px;
+    }
+
+    .navbar-nav {
+        background: #cc9900;
+        text-align: center;
+    }
+    .nav-link {
+        display: inline-block;
+        line-height: 50px !important;
+    }
+
+    .navbar .nav-link::after {
+        top: 100%;
+    }
+
+    /* header part end  */
+     /* banner part start  */
+     .banner-item-text h3 {
+        font-size: 57px;
+        line-height: 70px;
+    }
+
+    #banner .prevarrow {
+        font-size: 20px;
+        padding: 15px;
+    }
+
+    #banner .nextarrow {
+        font-size: 20px;
+        padding: 15px;
+    }
+    
+    #banner .banner-item {
+        padding-top: 170px;
+    }
+    
+    #banner .banner-btn a{
+        padding: 22px 50px 20px 50px;
+    }
+    
+    /* banner part end  */
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    /* header part start  */
+    .navbar-toggler i {
+        color: #fff;
+        font-size: 36px;
+        margin-right: 20px;
+        margin-top: 11px;
+    }
+
+    .navbar-brand img {
+        margin: 10px;
+    }
+
+    .navbar-nav {
+        background: #cc9900;
+        text-align: center;
+    }
+
+    .nav-link {
+        display: inline-block;
+        line-height: 50px !important;
+    }
+
+    .navbar .nav-link::after {
+        top: 100%;
+    }
+
+    /* header part end  */
+    /* banner part start  */
+    .banner-item-text h3 {
+        font-size: 57px;
+        line-height: 70px;
+    }
+
+    #banner .prevarrow {
+        font-size: 20px;
+        padding: 15px;
+    }
+
+    #banner .nextarrow {
+        font-size: 20px;
+        padding: 15px;
+    }
+    
+    #banner .banner-item {
+        padding-top: 170px;
+    }
+    
+    /* banner part end  */
+    /* form part end  */
+    .booking-form{
+        padding-bottom: 30px;
+    }
+    .contact-item-text p {
+        padding: 0px 80px;
+    }
+    .contact-item{
+        padding-bottom: 40px;
+    }
+    /* form part end  */
+}
